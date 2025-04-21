@@ -1,0 +1,39 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    color: #2c2c2c;
+  }
+  .cta-button {
+    background: linear-gradient(135deg, #0b3846, #f3eeee);
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(231, 224, 224, 0.2);
+    transition: transform 0.3s ease;
+  }
+  .cta-button:hover {
+    transform: scale(1.05);
+  }
+  .feature {
+    background: linear-gradient(145deg, #6c206352, #f0f0f0);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #ddd;
+  }
+  footer {
+    font-style: italic;
+    border-top: 1px solid #e0e0e0;
+  }
+  section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+  }
+  
+  section.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  body.dark-mode {
+    background-color: #111;
+    color: #eee;
+  }
+    
